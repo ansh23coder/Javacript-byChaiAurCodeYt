@@ -1,3 +1,7 @@
+// ChaiAurCode - Maths and Number (lecture) 
+// - https://youtu.be/_KqpeDc47Ro?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37
+
+
 const score = 400
 console.log(score)
 // 400
@@ -58,12 +62,18 @@ console.log(Math.pow(2, 3)); // 8 // 2^3
 console.log(Math.exp(2)); // 7.38905609893065 // e^2
 console.log(Math.log(10)); // 2.302585092994046 // log base e
 console.log(Math.ceil(10.1)); // 11 // top value
-console.log(Math.floor(10.9)); // 10 // down value
+console.log(Math.floor(10.9)); // 10 // down value 
+// floor and ceil are used to round numbers
 console.log(Math.round(10.5)); // 11
 console.log(Math.round(10.4)); // 10
-console.log(Math.max(10, 20, 30)); // 30
+console.log(Math.max(10, 20, 30, 50)); // 50
 console.log(Math.min(10, 20, 30)); // 10
 console.log(Math.random()); // 0.123456789
 console.log(Math.random() * 100); // 0-100
+console.log(Math.floor(Math.random() * 10) + 1); // 5, 8
+
 console.log(Math.floor(Math.random() * 100)); // 62
 
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random() * (max - min + 1)) + min); // 18
